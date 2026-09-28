@@ -1,0 +1,10 @@
+# Eğitim verisi klipleri (büyük, kişisel görüntüler içerir)
+dataset/
+dtest/
+
+# Otomatik inen model ağırlıkları (ilk çalıştırmada kendiliğinden iner)
+yolov8*.pt
+
+# Python
+__pycache__/
+*.pyc

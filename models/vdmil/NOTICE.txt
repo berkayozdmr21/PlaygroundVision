@@ -1,0 +1,19 @@
+VD-MIL — Violence Detection (MoViNet + Multiple Instance Learning)
+=================================================================
+
+Kaynak : https://github.com/roggerfq/violence-detection-mil
+Yazar  : Roger Figueroa Quintero (2025–2026)
+Lisans : Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)
+         https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Bu klasördeki dosyalar (model_20.pt, movinet_weights/, vdmil_movinet_classifier.py)
+yukarıdaki depodan alınmıştır.
+
+ÖNEMLİ: CC BY-NC 4.0 = SADECE TİCARİ OLMAYAN kullanım.
+Bu model bu projede yalnızca TEST / PROTOTİP amacıyla kullanılıyor.
+Ticari ürüne (AVM kurulumu vb.) geçmeden önce bu model
+KALDIRILMALI ve yerine ticari kullanıma uygun bir model
+(kendi eğittiğiniz ya da uygun lisanslı) konmalıdır.
+
+Gerekli kütüphane (ayrı kurulur):
+  pip install "git+https://github.com/roggerfq/MoViNet-pytorch.git"

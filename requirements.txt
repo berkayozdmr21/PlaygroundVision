@@ -1,0 +1,12 @@
+# Temel (herkes için)
+opencv-python>=4.8.0
+ultralytics>=8.2.0
+numpy>=1.24.0
+PySide6>=6.6.0
+
+# Kavga tespiti — AI doğrulaması (opsiyonel, "AI kavga doğrulaması" açılırsa)
+# MoViNet/VD-MIL modeli için (ÖNERİLEN):
+#   pip install "git+https://github.com/roggerfq/MoViNet-pytorch.git"
+#   (ağırlıklar models/vdmil/ içinde; lisans CC BY-NC 4.0 — ticari değil)
+# Alternatif tek-kare ViT modeli için:
+#   pip install -U "transformers>=4.45" pillow
